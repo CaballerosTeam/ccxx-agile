@@ -30,6 +30,13 @@
                 <type>select</type>
                 <values class="com.caballeros.jira.ccxx.reports.DevelopersLoadValueGenerator"/>
             </property>
+            <property>
+                <key>allFilter</key>
+                <name>Filter</name>
+                <description>Issue filter</description>
+                <type>select</type>
+                <values class="com.atlassian.jira.portal.FilterValuesGenerator" />
+            </property>
         </properties>
     </report>
 </atlassian-plugin>
